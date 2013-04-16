@@ -1,0 +1,24 @@
+{ "name":"nodesby", "version":"0.1.0", "description":"An agile node based esb", "main":"nodesby.js", "author":{
+    "name":"Michael E. Mainguy",
+    "email":"mike.mainguy@gmail.com",
+    "url":"http://mikemainguy.blogspot.com"
+},
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/mikemainguy/nodesby"
+    },
+    "bugs":{
+        "email":"mikemainguy@gmail.com",
+        "url":"http://github.com/isaacs/npm/issues"
+    },
+    "directories":{
+        "doc":"./doc",
+        "man":"./man",
+        "lib":"./lib"
+    },
+    "main":"./lib/nodesby.js",
+    "dependencies":{
+        "xml2js":"0.2.x",
+        "negotiator":"0.2.x"
+    }
+}
