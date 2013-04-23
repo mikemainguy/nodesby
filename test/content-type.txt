@@ -1,0 +1,8 @@
+curl -H "Accept: application/json" -H "Content-Type: application/xml" -d "<a>test</a>" http://localhost:1337/
+curl -H "Accept: application/xml" -H "Content-Type: application/xml" -d "<a>test</a>" http://localhost:1337/
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '{"a":"test"}' http://localhost:1337/
+curl -H "Accept: application/xml" -H "Content-Type: application/json" -d '{"a":"test"}' http://localhost:1337/
+curl -H "Accept: application/xml" -H "Content-Type: application/json" -d '{"a":["test1","test2"]}' http://localhost:1337/
+curl -H "Accept: application/json" -H "Content-Type: application/xml" -d '<?xml version="1.0" encoding="UTF-8" ?><a><b>test1</b><b>test2</b></a>' http://localhost:1337/
+
+curl -H "Accept: text/html" -H "Content-Type: application/xml" -d '<?xml version="1.0" encoding="UTF-8" ?><a><b>test1</b><b>test2</b></a>' http://localhost:1337/
