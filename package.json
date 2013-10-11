@@ -21,6 +21,7 @@
         "xml2js":"0.2.x",
         "negotiator":"0.2.x",
         "easyXML":"0.0.x",
-        "require-dir":"0.1.x"
+        "require-dir":"0.1.x",
+        "jsdom":"0.6.x"
     }
 }
